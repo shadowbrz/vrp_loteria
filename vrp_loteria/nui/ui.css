@@ -1,0 +1,7 @@
+#closebtn {
+  position: absolute;
+  right: 470px;
+  top: 200px;
+
+  z-index: 7;
+}

@@ -1,0 +1,137 @@
+body { 
+ 
+background-color:transparent;
+/*background:url('background.jpg') no-repeat center center fixed;*/
+  overflow: hidden;
+ 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+    -webkit-touch-callout: none; /* iOS Safari */
+    -webkit-user-select: none; /* Safari */
+     -khtml-user-select: none; /* Konqueror HTML */
+       -moz-user-select: none; /* Firefox */
+        -ms-user-select: none; /* Internet Explorer/Edge */
+            user-select: none;
+}
+
+.container-fluid {
+	display:none;
+}
+
+@font-face {
+    font-family: sign;
+    src: url(signpainter.ttf);
+}
+@font-face {
+    font-family: gothicb;
+    src: url(gothicb.ttf);
+}
+
+h1.tutorialheader {
+	font-family:sign;
+	font-size:4.5vw;
+	color:#FFF;
+	text-shadow: .1vw .3vw  #000;
+	text-align: center;
+	margin-top:4vw;
+}
+div.tutdesc { 
+
+width: 100%;
+  position: absolute;
+    top: 8.5vw;
+    text-align:center;
+ }
+h2.tutorialdesc {
+	font-family:sign;
+	font-size:2.3vw;
+	color:#fcffe2;
+	text-shadow: .1vw .3vw  #000;
+	  
+	
+}
+img {
+display: inline-block;
+				max-width: 98%;
+				height: auto;
+				width: 55.5vw;
+				margin: 1vw; position:absolute; left:20vw; top:8.3vw; z-index:3px;
+			}
+#ticket1 {
+	display: inline-block;
+				max-width: 12%;
+				height: auto;
+				width: 15vw;
+				z-index:5;
+				border: none;
+				padding: 10px;
+				border-style: none;
+				border-radius: 5px;
+				margin: 1vw; position:absolute; left:22.48vw; top:20.4vw; z-index:3;
+}
+#ticket2 {
+	display: inline-block;
+				max-width: 12%;
+				height: auto;
+				width: 15vw;
+				z-index:5;
+				border: none;
+				padding: 10px;
+				border-style: none;
+				border-radius: 5px;
+				margin: 1vw; position:absolute; left:34.75vw; top:20.4vw; z-index:3;
+}
+#ticket3 {
+	display: inline-block;
+				max-width: 12%;
+				height: auto;
+				width: 15vw;
+				z-index:5;
+				border: none;
+				padding: 10px;
+				border-style: none;
+				border-radius: 5px;
+				margin: 1vw; position:absolute; left:47.08vw; top:20.4vw; z-index:3;
+}
+#ticket4 {
+	display: inline-block;
+				max-width: 12%;
+				height: auto;
+				width: 15vw;
+				z-index:5;
+				border: none;
+				padding: 10px;
+				border-style: none;
+				border-radius: 5px;
+				margin: 1vw; position:absolute; left:59.38vw; top:20.4vw; z-index:3;
+}
+#ticket5 {
+	display: inline-block;
+				max-width: 12%;
+				height: auto;
+				width: 15vw;
+				z-index:5;
+				border: none;
+				padding: 10px;
+				border-style: none;
+				border-radius: 5px;
+				margin: 1vw; position:absolute; left:22.48vw; top:23.8vw; z-index:3;
+}
+#spawnclick {
+	display: inline-block;
+				max-width: 98%;
+				height: auto;
+				width: 18vw;
+				z-index:5;
+				margin: 1vw; position:absolute; left:38.78vw; top:9.4vw; z-index:3;
+}
+.btn-blue {
+	background:blue;
+	color:#FFF;
+}
+.btn-blue:hover {
+	background:#4285bc;
+	color:#FFF;
+}
